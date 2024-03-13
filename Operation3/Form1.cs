@@ -55,6 +55,7 @@ namespace Operation3
 
         private void tb_nombre1_TextChanged(object sender, EventArgs e)
         {
+            //On efface le nombre 2 et le resultat
             tb_nombre2.Clear();
             tbresultat.Clear();
         }
